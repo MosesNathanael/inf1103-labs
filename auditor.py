@@ -19,7 +19,7 @@ while True:
         failed += 1
         continue
 
-    total_inventory += 1
+    total_inventory += user
 
     if total_inventory > 500:
         print("Overstock Alert!")
