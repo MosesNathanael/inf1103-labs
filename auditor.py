@@ -4,3 +4,7 @@ while True:
     user = input("Enter Stock Quantity: ")
     if user == "quit":
         break  
+
+    user = int(user)
+
+    
