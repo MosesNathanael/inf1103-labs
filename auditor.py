@@ -15,4 +15,6 @@ while True:
         print("Rejected, please input positive number")
         continue
 
+    total_inventory += 1
+
     
