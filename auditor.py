@@ -17,4 +17,8 @@ while True:
 
     total_inventory += 1
 
+    if total_inventory > 500:
+        print("Overstock Alert!")
+        break
+
     
