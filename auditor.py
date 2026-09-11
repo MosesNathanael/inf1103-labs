@@ -9,7 +9,10 @@ while True:
         print("Error, you should only input integers")
         continue
     
-
     user = int(user)
+
+    if user < 0:
+        print("Rejected, please input positive number")
+        continue
 
     
