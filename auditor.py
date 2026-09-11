@@ -5,6 +5,11 @@ while True:
     if user == "quit":
         break  
 
+    if user.isdigit() == False:
+        print("Error, you should only input integers")
+        continue
+    
+
     user = int(user)
 
     
