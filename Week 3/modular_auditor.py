@@ -23,10 +23,6 @@ def process_delivery(current_total, new_value):
 def calculate_tax(amount):
     return amount*0.1
 
-
-def calculate_tax(amount):
-    return amount*0.1
-
 def generate_report(total_units, failed_attemps):
     print(f"Total Deliveries Processed: {total_units}, Failed_attemps: {failed_attemps}")
 
