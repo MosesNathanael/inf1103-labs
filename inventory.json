@@ -1,0 +1,32 @@
+[
+    {
+        "ID": "P001",
+        "Name": "Laptop",
+        "Price": 1200.0,
+        "Stock": 12
+    },
+    {
+        "ID": "P002",
+        "Name": "Mouse",
+        "Price": "9.00",
+        "Stock": 5
+    },
+    {
+        "ID": "P003",
+        "Name": "Keyboard",
+        "Price": 12.0,
+        "Stock": 10
+    },
+    {
+        "ID": "P004",
+        "Name": "Adapter",
+        "Price": 12.0,
+        "Stock": 4
+    },
+    {
+        "ID": "P005",
+        "Name": "Earphone",
+        "Price": 12.0,
+        "Stock": 5
+    }
+]
