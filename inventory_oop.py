@@ -14,7 +14,25 @@ class Product:
         print(f"ID:{self.__product_id} | Name: {self.__name} | Price: ${self.__price} | Stock: {self.__stock}")
         print("-------------------------------------") 
 
+class Inventory:
+    def __init__(self, inventory):
+        self.__list = inventory
 
+    def add_product(self, product):
+        self.__list.append(product)
+
+    def search_product(self, product_id):
+        for p in self.__list:
+            if p._Product__product_id == product_id:
+                p.display_information()  
+                return p
+        return False
+
+    def display_all(self):
+        if len(self.__list) == 0:
+            print("Inventory is empty")
+        for p in self.__list:
+            p.display_information()
 
 
 
