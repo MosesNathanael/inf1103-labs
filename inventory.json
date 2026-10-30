@@ -27,6 +27,12 @@
         "product_id": "1005",
         "name": "jolibee",
         "price": "10",
-        "stock": "50"
+        "stock": "2"
+    },
+    {
+        "product_id": "1006",
+        "name": "banana",
+        "price": "4",
+        "stock": "10"
     }
 ]
