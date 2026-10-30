@@ -91,16 +91,15 @@ def display_menu():
     print("6. Exit")
     print("---------------------------------")
 
-
+ 
 
 def main():
-    print("====================================")
+    print("=====================================")
     print("INVENTORY MANAGEMENT SYSTEM")
     print("====================================")
 
     inven = load_inventory()
     inventory = Inventory(inven)
-
 
     while True:
         print("\n")
