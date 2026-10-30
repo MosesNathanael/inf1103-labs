@@ -94,7 +94,7 @@ def display_menu():
  
 
 def main():
-    print("=====================================")
+    print("====================================")
     print("INVENTORY MANAGEMENT SYSTEM")
     print("====================================")
 
