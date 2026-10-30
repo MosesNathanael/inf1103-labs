@@ -1,0 +1,32 @@
+[
+    {
+        "product_id": "1001",
+        "name": "strawberry",
+        "price": "10",
+        "stock": "3"
+    },
+    {
+        "product_id": "1002",
+        "name": "KFC",
+        "price": "12",
+        "stock": "8"
+    },
+    {
+        "product_id": "1003",
+        "name": "salmon",
+        "price": "30",
+        "stock": "10"
+    },
+    {
+        "product_id": "1004",
+        "name": "chicken",
+        "price": "12",
+        "stock": "10"
+    },
+    {
+        "product_id": "1005",
+        "name": "jolibee",
+        "price": "10",
+        "stock": "50"
+    }
+]
