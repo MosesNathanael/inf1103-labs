@@ -126,7 +126,7 @@ def main():
                 print("You should only input positive number")
                 continue
             
-            product = Product(id, name, price, stock)
+            product = Product(id, name, float(price), stock)
             inventory.add_product(product)
             print("Product added")
 
